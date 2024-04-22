@@ -1,8 +1,8 @@
 // Función para cambiar al modo oscuro
 function toggleDarkMode() {
-    var body = document.body;
-    var container = document.getElementById('container');
-    var button = document.getElementById('toggleMode');
+    let body = document.body;
+    let container = document.getElementById('container');
+    let button = document.getElementById('toggleMode');
 
     // Cambiar estilos para el modo oscuro
     body.style.backgroundColor = '#1a1a1a'; // Fondo oscuro
